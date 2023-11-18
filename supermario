@@ -1,3 +1,7 @@
+docker pull kaminskypavel/mario
+docker run -d -p 48203:8080 kaminskypavel/mario
+
+
 docker pull pengbai/docker-supermario
 docker run -itd -p 4545:8080 kaminskpavel/mario
 version: '3.9'
